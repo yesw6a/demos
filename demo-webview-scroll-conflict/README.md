@@ -2,6 +2,10 @@
 
 > 本 demo 以微信小程序为例
 
+## 演示
+
+![](https://file.clovemu.com/img/FinalVideo_1645282272.898724.gif?imgslim)
+
 ## 缘起
 
 在小程序内插入 webview 页面，手指滑动页面的时候，没有触发网页内部的滚动，而是出现了整个html页面被下拉，而显示出“网页由xxx.com提供”的字样。
@@ -52,7 +56,7 @@ body {
 
 ### 运行 demo
 
-- 使用微信开发者工具运行
+- 使用微信开发者工具运行代码片段
 - 使用真机调试，不然无法展示webview
 - 使用 node 服务启动 h5
 - 修改 `/demo-webview-scroll-conflict/index/index.js` 中 `data.ip` 和 `data.port` 的值为启动 h5 的 `ip` 及端口号
